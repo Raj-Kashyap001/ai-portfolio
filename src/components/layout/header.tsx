@@ -2,7 +2,7 @@
 
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-import { Menu, Sparkles, X } from 'lucide-react'
+import { Menu, X } from 'lucide-react'
 import { useState, useEffect } from 'react'
 
 import { cn } from '@/lib/utils'
@@ -53,9 +53,9 @@ export default function Header() {
       <div className="container flex h-14 items-center">
         <div className="mr-4 flex items-center">
           <Link href="/" className="flex items-center gap-2">
-            <Sparkles className="h-6 w-6 text-primary" />
+            <div className="text-xl font-bold text-primary">^ J ^</div>
             <span className="hidden font-bold sm:inline-block">
-              Raj Kashyap
+              John Doe
             </span>
           </Link>
         </div>

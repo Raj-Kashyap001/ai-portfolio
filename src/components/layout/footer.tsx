@@ -1,4 +1,4 @@
-import { Sparkles, Github, Linkedin, Twitter } from 'lucide-react'
+import { Github, Linkedin, Twitter } from 'lucide-react'
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 
@@ -9,8 +9,8 @@ export default function Footer() {
     <footer className="w-full border-t bg-accent/50">
       <div className="container flex flex-col items-center justify-between gap-6 py-8 sm:flex-row">
         <div className="flex items-center gap-2">
-          <Sparkles className="h-6 w-6 text-primary" />
-          <p className="text-sm font-bold">Raj Kashyap</p>
+          <div className="text-xl font-bold text-primary">^ J ^</div>
+          <p className="text-sm font-bold">John Doe</p>
         </div>
         <p className="text-sm text-muted-foreground">
           &copy; {currentYear} Raj Kashyap. All rights reserved.

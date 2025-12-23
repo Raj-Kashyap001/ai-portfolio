@@ -2,7 +2,7 @@ import BlogPostCard from '@/components/shared/blog-post-card'
 import { posts } from '@/lib/data'
 
 export const metadata = {
-  title: 'Blog | Raj Kashyap',
+  title: 'Blog | John Doe',
   description: 'Thoughts and articles on technology, design, and creativity.',
 }
 

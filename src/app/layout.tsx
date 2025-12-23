@@ -6,7 +6,7 @@ import Header from '@/components/layout/header'
 import Footer from '@/components/layout/footer'
 
 export const metadata: Metadata = {
-  title: 'Raj Kashyap | Portfolio',
+  title: 'John Doe | Portfolio',
   description: 'A personal portfolio website template.',
 }
 

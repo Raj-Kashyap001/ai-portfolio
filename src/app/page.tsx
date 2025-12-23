@@ -20,7 +20,7 @@ export default function Home() {
         <div className="space-y-6">
           <div className="space-y-2">
             <span className="text-sm font-medium text-primary">
-              Raj Kashyap
+              John Doe
             </span>
             <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl lg:text-6xl/none">
               Welcome to My Portfolio
