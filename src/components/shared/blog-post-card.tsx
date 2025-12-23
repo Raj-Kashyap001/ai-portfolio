@@ -17,13 +17,11 @@ import { Button } from '@/components/ui/button'
 
 interface BlogPostCardProps {
   post: Post
-  summary?: string
 }
 
-export default function BlogPostCard({ post, summary }: BlogPostCardProps) {
+export default function BlogPostCard({ post }: BlogPostCardProps) {
   const image = PlaceHolderImages.find((img) => img.id === post.image)
   const postSummary =
-    summary ||
     post.content.substring(0, 100) + (post.content.length > 100 ? '...' : '')
 
   return (

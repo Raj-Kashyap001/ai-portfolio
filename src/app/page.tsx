@@ -6,27 +6,13 @@ import { Button } from '@/components/ui/button'
 import { projects, posts } from '@/lib/data'
 import ProjectCard from '@/components/shared/project-card'
 import BlogPostCard from '@/components/shared/blog-post-card'
-import { generateProjectHighlight } from '@/ai/flows/generate-project-highlight'
-import { generateBlogPostSummary } from '@/ai/flows/generate-blog-post-summary'
 import { PlaceHolderImages } from '@/lib/placeholder-images'
 
 const heroImage = PlaceHolderImages.find((img) => img.id === 'hero')
 
 export default async function Home() {
   const featuredProjects = projects.slice(0, 3)
-  const recentPosts = posts.slice(0, 3)
-
-  const projectHighlights = await Promise.all(
-    featuredProjects.map((project) =>
-      generateProjectHighlight({ projectDescription: project.description })
-    )
-  )
-
-  const postSummaries = await Promise.all(
-    recentPosts.map((post) =>
-      generateBlogPostSummary({ blogPostContent: post.content })
-    )
-  )
+  const recentPosts = posts.slice(0, 2)
 
   return (
     <div className="flex flex-col">
@@ -122,11 +108,10 @@ export default async function Home() {
             </p>
           </div>
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {featuredProjects.map((project, index) => (
+            {featuredProjects.map((project) => (
               <ProjectCard
                 key={project.id}
                 project={project}
-                highlight={projectHighlights[index]?.projectHighlight}
               />
             ))}
           </div>
@@ -151,12 +136,11 @@ export default async function Home() {
               trends.
             </p>
           </div>
-          <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {recentPosts.map((post, index) => (
+          <div className="mx-auto grid max-w-5xl grid-cols-1 gap-8 md:grid-cols-2">
+            {recentPosts.map((post) => (
               <BlogPostCard
                 key={post.id}
                 post={post}
-                summary={postSummaries[index]?.summary}
               />
             ))}
           </div>

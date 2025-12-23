@@ -17,10 +17,9 @@ import { Button } from '@/components/ui/button'
 
 interface ProjectCardProps {
   project: Project
-  highlight?: string
 }
 
-export default function ProjectCard({ project, highlight }: ProjectCardProps) {
+export default function ProjectCard({ project }: ProjectCardProps) {
   const image = PlaceHolderImages.find((img) => img.id === project.image)
 
   return (
@@ -40,7 +39,7 @@ export default function ProjectCard({ project, highlight }: ProjectCardProps) {
         )}
         <CardTitle>{project.title}</CardTitle>
         <CardDescription className="line-clamp-3 min-h-[3.75rem]">
-          {highlight || project.description}
+          {project.description}
         </CardDescription>
       </CardHeader>
       <CardContent className="flex-grow">
