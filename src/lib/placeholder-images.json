@@ -1,3 +1,76 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero",
+      "description": "Abstract digital art with flowing lines of indigo and lavender",
+      "imageUrl": "https://images.unsplash.com/photo-1644088379091-d574269d422f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhYnN0cmFjdCUyMHRlY2hub2xvZ3l8ZW58MHx8fHwxNzY2MzYyMTA2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract technology"
+    },
+    {
+      "id": "project-1",
+      "description": "A dashboard UI with charts and graphs",
+      "imageUrl": "https://images.unsplash.com/photo-1584301952952-8544e5ae7a26?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxkYXNoYm9hcmQlMjB1aXxlbnwwfHx8fDE3NjY0MjI0NTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dashboard ui"
+    },
+    {
+      "id": "project-2",
+      "description": "A mobile application interface for a social media app",
+      "imageUrl": "https://images.unsplash.com/photo-1542641728-6ca359b085f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtb2JpbGUlMjBhcHB8ZW58MHx8fHwxNzY2NDMyOTMzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mobile app"
+    },
+    {
+      "id": "project-3",
+      "description": "E-commerce website design for a fashion brand",
+      "imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxlY29tbWVyY2UlMjB3ZWJzaXRlfGVufDB8fHx8MTc2NjQwMTQwOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ecommerce website"
+    },
+    {
+      "id": "project-4",
+      "description": "A 3D render of a futuristic building",
+      "imageUrl": "https://images.unsplash.com/photo-1619618020341-5de1cad0d965?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxmdXR1cmlzdGljJTIwYXJjaGl0ZWN0dXJlfGVufDB8fHx8MTc2NjQxMjU5OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "futuristic architecture"
+    },
+    {
+      "id": "project-5",
+      "description": "Data visualization of a complex network",
+      "imageUrl": "https://images.unsplash.com/photo-1738082956220-a1f20a8632ce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxkYXRhJTIwbmV0d29ya3xlbnwwfHx8fDE3NjYzNjg5ODJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "data network"
+    },
+    {
+      "id": "project-6",
+      "description": "Landing page for a SaaS product",
+      "imageUrl": "https://images.unsplash.com/photo-1630673595834-170621fa0d28?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzYWFzJTIwcHJvZHVjdHxlbnwwfHx8fDE3NjY0NzUyMjl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "saas product"
+    },
+    {
+      "id": "blog-1",
+      "description": "A person typing on a laptop with code on the screen",
+      "imageUrl": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjb2RpbmclMjBsYXB0b3B8ZW58MHx8fHwxNzY2NDU4NzYzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "coding laptop"
+    },
+    {
+      "id": "blog-2",
+      "description": "A designer's desk with sketches and a tablet",
+      "imageUrl": "https://images.unsplash.com/photo-1575017159701-e94c1fa4386c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZGVzaWduZXIlMjBkZXNrfGVufDB8fHx8MTc2NjQ3NTIyOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "designer desk"
+    },
+    {
+      "id": "blog-3",
+      "description": "A collection of colorful sticky notes on a board",
+      "imageUrl": "https://images.unsplash.com/photo-1641355527446-232d7f1f2c10?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzdGlja3klMjBub3Rlc3xlbnwwfHx8fDE3NjY0MzEwMTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sticky notes"
+    },
+    {
+      "id": "blog-4",
+      "description": "A close-up of a server rack with blinking lights",
+      "imageUrl": "https://images.unsplash.com/photo-1687300172792-68a13c4e149a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzZXJ2ZXIlMjByYWNrfGVufDB8fHx8MTc2NjQyNTYyN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "server rack"
+    },
+    {
+      "id": "contact",
+      "description": "An old-fashioned rotary telephone in a minimalist setting",
+      "imageUrl": "https://images.unsplash.com/photo-1615713508098-9c0c327df3a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx2aW50YWdlJTIwdGVsZXBob25lfGVufDB8fHx8MTc2NjQ2NTE2Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "vintage telephone"
+    }
+  ]
 }
