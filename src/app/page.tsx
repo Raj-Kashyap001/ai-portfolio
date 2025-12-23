@@ -20,10 +20,10 @@ export default function Home() {
         <div className="space-y-6">
           <div className="space-y-2">
             <span className="text-sm font-medium text-primary">
-              Remy Jouni - Digital Craftsman
+              Raj Kashyap
             </span>
             <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl lg:text-6xl/none">
-              Welcome to My Digital Oasis
+              Welcome to My Portfolio
             </h1>
           </div>
           <p className="max-w-[600px] text-muted-foreground md:text-xl">

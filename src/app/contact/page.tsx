@@ -3,7 +3,7 @@ import ContactForm from '@/components/contact-form'
 import { PlaceHolderImages } from '@/lib/placeholder-images'
 
 export const metadata = {
-  title: 'Contact | Digital Oasis',
+  title: 'Contact | Raj Kashyap',
   description: 'Get in touch with me.',
 }
 

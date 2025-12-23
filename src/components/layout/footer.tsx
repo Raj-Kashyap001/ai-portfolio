@@ -10,10 +10,10 @@ export default function Footer() {
       <div className="container flex flex-col items-center justify-between gap-6 py-8 sm:flex-row">
         <div className="flex items-center gap-2">
           <Sparkles className="h-6 w-6 text-primary" />
-          <p className="text-sm font-bold">Digital Oasis</p>
+          <p className="text-sm font-bold">Raj Kashyap</p>
         </div>
         <p className="text-sm text-muted-foreground">
-          &copy; {currentYear} Digital Oasis. All rights reserved.
+          &copy; {currentYear} Raj Kashyap. All rights reserved.
         </p>
         <div className="flex items-center gap-2">
           <Button variant="ghost" size="icon" asChild>

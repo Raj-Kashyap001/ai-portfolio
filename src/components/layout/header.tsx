@@ -55,7 +55,7 @@ export default function Header() {
           <Link href="/" className="flex items-center gap-2">
             <Sparkles className="h-6 w-6 text-primary" />
             <span className="hidden font-bold sm:inline-block">
-              Digital Oasis
+              Raj Kashyap
             </span>
           </Link>
         </div>

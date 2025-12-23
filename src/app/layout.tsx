@@ -6,8 +6,8 @@ import Header from '@/components/layout/header'
 import Footer from '@/components/layout/footer'
 
 export const metadata: Metadata = {
-  title: 'Digital Oasis',
-  description: 'A digital portfolio and creative space.',
+  title: 'Raj Kashyap | Portfolio',
+  description: 'A personal portfolio website template.',
 }
 
 export default function RootLayout({
@@ -31,7 +31,7 @@ export default function RootLayout({
       </head>
       <body
         className={cn(
-          'min-h-screen bg-background font-body text-foreground antialiased'
+          'min-h-screen bg-background font-sans text-foreground antialiased'
         )}
       >
         <div className="relative flex min-h-dvh flex-col">

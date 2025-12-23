@@ -2,7 +2,7 @@ import ProjectCard from '@/components/shared/project-card'
 import { projects } from '@/lib/data'
 
 export const metadata = {
-  title: 'Projects | Digital Oasis',
+  title: 'Projects | Raj Kashyap',
   description: 'A collection of my projects and work.',
 }
 

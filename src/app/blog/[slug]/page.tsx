@@ -22,7 +22,7 @@ export async function generateMetadata({
     return {}
   }
   return {
-    title: `${post.title} | Digital Oasis`,
+    title: `${post.title} | Raj Kashyap`,
     description: post.content.substring(0, 150),
   }
 }
