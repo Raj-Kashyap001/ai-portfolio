@@ -3,7 +3,7 @@
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { Menu, Sparkles, X } from 'lucide-react'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 import { cn } from '@/lib/utils'
 import { Button } from '@/components/ui/button'
@@ -20,6 +20,16 @@ export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
 
   const toggleMobileMenu = () => setIsMobileMenuOpen(!isMobileMenuOpen)
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth >= 768) {
+        setIsMobileMenuOpen(false)
+      }
+    }
+    window.addEventListener('resize', handleResize)
+    return () => window.removeEventListener('resize', handleResize)
+  }, [])
 
   const NavLink = ({ href, label }: { href: string; label: string }) => {
     const isActive =
@@ -68,7 +78,9 @@ export default function Header() {
         </div>
       </div>
       {isMobileMenuOpen && (
-        <div className="md:hidden">
+        <div
+          className="animate-in fade-in-20 slide-in-from-top-2 md:hidden"
+        >
           <div className="border-t">
             <nav className="container grid gap-4 py-4">
               {navLinks.map((link) => (

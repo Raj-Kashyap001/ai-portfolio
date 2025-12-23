@@ -42,7 +42,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
         <h1 className="text-4xl font-bold tracking-tighter md:text-5xl">
           {post.title}
         </h1>
-        <div className="flex items-center gap-6 text-sm text-muted-foreground">
+        <div className="flex flex-col items-start gap-4 text-sm text-muted-foreground sm:flex-row sm:items-center sm:gap-6">
           <div className="flex items-center gap-2">
             <Calendar className="h-4 w-4" />
             <span>{post.date}</span>

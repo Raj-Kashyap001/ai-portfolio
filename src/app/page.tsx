@@ -10,7 +10,7 @@ import { PlaceHolderImages } from '@/lib/placeholder-images'
 
 const heroImage = PlaceHolderImages.find((img) => img.id === 'hero')
 
-export default async function Home() {
+export default function Home() {
   const featuredProjects = projects.slice(0, 3)
   const recentPosts = posts.slice(0, 2)
 
